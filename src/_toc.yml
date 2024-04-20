@@ -1,0 +1,12 @@
+# In _toc.yml
+format: jb-book
+root: index
+chapters:
+- file: intro/index
+  sections:
+  - file: intro/prior_art
+- file: implementation/index
+- file: examples/index
+  sections:
+  - file: examples/nwb_linkml
+- file: discussion/index
