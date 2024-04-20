@@ -2,11 +2,11 @@
 format: jb-book
 root: index
 chapters:
-- file: intro/index
+- file: intro/intro
   sections:
   - file: intro/prior_art
-- file: implementation/index
-- file: examples/index
+- file: implementation/implementation
+- file: examples/examples
   sections:
   - file: examples/nwb_linkml
-- file: discussion/index
+- file: discussion/discussion

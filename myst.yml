@@ -3,17 +3,30 @@ version: 1
 project:
   # title:
   # description:
-  keywords: []
-  authors: []
+  title: LinkML Arrays
+  short_title: LinkML Arrays
+  authors:
+    - Jonny Saunders
+    - Test Second
+
+  date: 2024-04-19
+  keywords:
+  - a keyword
   github: https://github.com/rly/linkml-arrays-paper
   # bibliography: []
+  export: 
+  - format: docx
+  - format: pdf
+    template: arxiv_two_column
+    output: build/linkml-arrays.pdf
+    toc: ./src/_toc.yml
 site:
   template: book-theme
   # title:
   # logo:
   projects:
-    - slug: myst
-      path: .
+    - slug: linkml-arrays
+      path: ./src
   nav: []
   actions:
     - title: Learn More
