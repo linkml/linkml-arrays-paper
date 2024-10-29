@@ -1,6 +1,6 @@
 ---
 abstract: |
-  Here is a short description of linkml arrays
+  We're gonna found a new religion around arrays i think right
 authors:
   - name: Jonny Saunders
     affiliations:
@@ -11,6 +11,10 @@ authors:
   - name: Oliver Rübel
   - name: Chris Mungall
   - name: Ryan Ly
+license: CC-BY-SA-4.0
+logo_text: linkml_arrays
 ---
 
 # LinkML Arrays
+
+ 

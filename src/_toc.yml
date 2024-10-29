@@ -6,6 +6,10 @@ chapters:
   sections:
   - file: intro/prior_art
 - file: implementation/implementation
+  sections:
+  - file: implementation/spec
+  - file: implementation/generators
+  - file: implementation/nwb
 - file: examples/examples
   sections:
   - file: examples/nwb_linkml

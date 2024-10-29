@@ -1,8 +1,6 @@
 # See docs at: https://myst.tools/docs/mystjs/frontmatter
 version: 1
 project:
-  # title:
-  # description:
   title: LinkML Arrays
   short_title: LinkML Arrays
   authors:
@@ -16,7 +14,7 @@ project:
     - name: Chris Mungall
     - name: Ryan Ly
 
-  date: 2024-04-19
+  date: 2024-10-24
   keywords:
   - a keyword
   github: https://github.com/rly/linkml-arrays-paper
@@ -27,9 +25,12 @@ project:
     template: arxiv_two_column
     output: build/linkml-arrays.pdf
     toc: ./src/_toc.yml
+  plugins:
+    - type: executable
+      path: src/linkml_arrays_paper/plugins/draft.py
 site:
   template: book-theme
-  # title:
+  title: LinkML Arrays
   # logo:
   projects:
     - slug: linkml-arrays
