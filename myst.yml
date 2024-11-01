@@ -18,7 +18,8 @@ project:
   keywords:
   - a keyword
   github: https://github.com/rly/linkml-arrays-paper
-  # bibliography: []
+  bibliography:
+    - src/linkml-arrays-paper.bib
   export: 
   - format: docx
   - format: pdf
