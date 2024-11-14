@@ -29,6 +29,7 @@ project:
   plugins:
     - type: executable
       path: src/linkml_arrays_paper/plugins/draft.py
+
 site:
   template: book-theme
   title: LinkML Arrays
@@ -37,7 +38,7 @@ site:
     - slug: linkml-arrays
       path: ./src
   nav: []
-  actions:
-    - title: Learn More
-      url: https://myst.tools/docs/mystjs
+  # actions:
+  #   - title: Learn More
+  #     url: https://myst.tools/docs/mystjs
   domains: []
